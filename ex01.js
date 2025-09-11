@@ -48,10 +48,10 @@ console.log(newObj.ES6);
 var relationship1= {
     name: 'zero',
     friends:['nero', 'hero', 'xero'],
-    adds : ['한누리관', '송백관'],
+    add : ['한누리관', '송백관'],
     logFriends: function (){
         var that = this;
-        this.friends.forEach (addlist => {
+        this.add.forEach (addlist => {
             this.friends.forEach(friend =>{
             console.log(that.name, friend, addlist);
         });
