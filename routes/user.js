@@ -5,5 +5,5 @@ const router = express.Router();
 router.get('/',(req,res)=>{
     res.send("Hello User");
 })
-router.get('/:id');
+//router.get('/:id');
 module.exports = router;
